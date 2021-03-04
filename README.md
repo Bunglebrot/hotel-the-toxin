@@ -1,7 +1,7 @@
 # Сайт бронирования номеров отеля
 Этот проект реализован для прохождения второго этапа по обучающей программе frontend разработке от MetaLamp.
 
-## Github pages здесь
+[Дизайн макета](https://www.figma.com/file/MumYcKVk9RkKZEG6dR5E3A/FSD-frontend-education-program.-The-2nd-task?node-id=0%3A1)
 [Ссылка на gh.pages этого проекта](https://bunglebrot.github.io/hotel-the-toxin/)
 
 ## Как работать? :rocket:
