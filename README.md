@@ -7,7 +7,7 @@
 ## Как работать? :rocket:
 > т.к. все зависимости в этом проекте локальные, необходима установка **node.js**
 * склонировать этот репозиторий
-* выполнить ```npm i``` в сколнированном репозитории
+* выполнить ```npm i``` в склонированном репозитории
 * выполнить ```npm run dev``` для работы в live режиме на порту **8081**
 * команда ```npm run build``` выполнит сборку проекта
 * команда ```npm run deploy``` выполнит деплой
@@ -21,8 +21,24 @@
   - **jquery.maskedinput**
   - **air-datepicker**
   - **slick-carousel**
+  - **chart.js**
 * сборку проекта выполнял **Webpack 4**
 * расширение браузера **Pixel Perfect**
 * методологию **БЭМ**
 * нативный **Javascript**
 * иконочные шрифты **Font Awesome** и **Material Icons**
+
+## Компоненты :open_file_folder:
+-### Формы
+* price-calculator-form
+* registration-form
+* search-room-form
+* sign-in-form
+
+## Параметры компонентов
+###button-UI
+: text (String) - текст внутри кнопки
+: mode (String) - `transparent` || `long` - стилевые модификаторы кнопки
+: type (String default: `button`) - тип кнопки
+- link (Boolean default: `false`) - если передать `true` ~~кнопка~~ превратится в ссылку + необходимо будет передать параметр href
+- href (String) - путь для ссылки
